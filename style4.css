@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+body{
+    background-color: #fff;
+    font-size: large;
+}
+h1{
+    color: #fff;
+}
+.card{
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.card :hover {
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    color: black;
+    background-color: #fff;
+  }
+.card{
+    box-shadow: 0 8px 8px 0 #fff;
+    transition: 0.3s;
+    padding: 30px 100px;
+    background-color: #ff8fba;
+    width: 900px;
+    height: 520px; 
+    border-radius: 25px;
+    border-color: rgb(0, 0, 0);
+}
+footer .pagination a{
+    color: black;
+    padding: 1px;
+    transition:3s;
+}
+footer .pagination{
+    display: inline-block;
+}
+footer .pagination a:hover{
+    background: #ff8fba;
+    color: black;
+    
+}
