@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+body{
+    padding: 30px;
+    background-color: #ff8fba;
+    font-size: larger;
+}
+footer .pagination a{
+    color: black;
+    padding:3px;
+    transition:3s;
+}
+footer .pagination{
+    display: inline-block;
+}
+footer .pagination a:hover{
+    background: #fff;
+    color: black;
+    
+}
