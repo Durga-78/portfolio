@@ -1,0 +1,43 @@
+header{
+    background-color: #ff8fba;
+    padding:5px;
+}
+body{
+    font-size: larger;
+    padding: 10px;
+    background-color: #f2e9eb;
+}
+body .about p{
+    justify-content:center;
+}
+body  img{
+    float:right;
+    margin-top:-330px;
+    margin-left: 100px;
+    box-sizing: border-box;
+    border: 5px solid rgb(243, 189, 189);
+}
+body footer{
+    padding:30px;
+    background-color: #ff8fba;
+    position: relative;
+}
+footer .pagination a{
+    color: black;
+    padding:3px;
+    transition:3s;
+}
+footer .pagination{
+    display: inline-block;
+}
+footer .pagination a:hover{
+    background: #fff;
+    color: black;
+    
+}
+body .about button {
+       background-color: #ff8fba;
+       border-radius: 15px;
+       width: 100px;
+      height: 30px;
+}
