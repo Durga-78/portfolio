@@ -1,0 +1,94 @@
+body {
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f2e9eb;
+}
+
+header {
+    background: #ff8fba;
+    color: #fff;
+    padding: 10px;
+    font-family: cursive;
+}
+body section{
+    float: left;
+    font-size: x-large;
+    padding: 30px;
+}
+section a{
+    color: black;
+    padding:10px;
+}
+body img{
+    float:right;
+    filter:grayscale(.5);
+    transition: .3s;
+    box-sizing: border-box;
+    border: 5px solid rgb(243, 189, 189);
+    padding:10px;
+
+}
+body img:hover{
+    filter:grayscale(0);
+    transition: scale(1.3)rotate(7deg);
+}
+nav ul {
+    list-style: none;
+    padding:10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    float:right;
+}
+
+nav ul li a {
+    
+    color: white;
+    text-decoration: none;
+    
+}
+body section a .button{
+       border-radius: 20px;
+}
+section a:hover{
+    color: #ff8fba;
+    transition: 3s;
+}
+
+section{
+    padding: 30px;
+    position: absolute;
+}
+button{
+    width: 150px;
+    height: 30px;
+    background-color: #ff8fba;
+    border-radius: 10px;
+}
+footer .pagination a{
+    color: black;
+    padding:3px;
+    transition:3s;
+}
+footer .pagination{
+    display: inline-block;
+}
+footer .pagination a:hover{
+    background: #fff;
+    color: black;
+    
+}
+
+footer {
+    background: #ff8fba;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
